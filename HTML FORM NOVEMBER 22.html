@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>HTML FORMS NOVEMBER 22, 2021</title>
+    <style type="text/css">
+    textarea {
+    color: #d9534f;
+    border: none; 
+    outline: none;
+    resize: none;
+    }
+      body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: skyblue;
+      }
+      table{
+      font-size: 15px;
+      line-height: 15px;
+      background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+  <form>
+    <form action="sample-page-handler.html" method="GET">
+    <input type="text" name="firstname" placeholder="First Name" /> <br />
+    <input type="text" name="middlename" placeholder="Middle Name" /> <br />
+    <input type="text" name="familyname" placeholder="Family Name" /> <br />
+    <input type="radio">Male<br />
+    <input type="radio">Female<br />
+    <input type="email" name="Email Address" placeholder="Email Address"><br />
+    <input type="text" name="homeaddress" placeholder="Home Address" /><br />
+    Hobbies:<input type="checkbox">Playing Basketball
+    <input type="checkbox"> Mobile Games<br />
+    <input type="checkbox"> Computer Games<input type="checkbox">Working Out<br />
+    Favorite Color:<input type="color"/><br />
+    <textarea rows="10" cols="40" placeholder="Say something about yourself..." id="sample"></textarea>
+    <br />
+    <button type="submit">Submit</button><br />
+    <button type="reset">Clear</button> <br />    
+    </form>
+  </body>
+</html>
